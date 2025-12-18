@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visual Studio Code - دليل الاستخدام</title>
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+ google.com, pub-2409966674105117, DIRECT, f08c47fec0942fa0
+    body {
+      font-family: 'Almarai', sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      color: #1c1e21;
+    }
+    header {
+      background-color: #0078d7;
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      padding: 10px 0;
+      background: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      flex-wrap: wrap;
+    }
+    nav a {
+      text-decoration: none;
+      color: #0078d7;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      background: #0078d7;
+      color: white;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    section {
+      background: white;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      transition: transform 0.3s;
+    }
+    section:hover {
+      transform: translateY(-5px);
+    }
+    h2 {
+      color: #0078d7;
+      margin-top: 0;
+    }
+    p, ul, ol {
+      line-height: 1.7;
+    }
+    ul li, ol li {
+      margin-bottom: 12px;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+    a.button {
+      display: inline-block;
+      background: #42b72a;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: 0.3s;
+      margin: 10px 0;
+    }
+    a.button:hover {
+      background: #36a420;
+    }
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 12px;
+      margin: 15px 0;
+    }
+    .video-wrapper iframe {
+      position: absolute;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Visual Studio Code - دليل الاستخدام</h1>
+</header>
+
+<nav>
+  <a href="#about">عن VS Code</a>
+  <a href="#features">المميزات</a>
+  <a href="#installation">التثبيت</a>
+  <a href="#interface">واجهة المستخدم</a>
+  <a href="#extensions">الإضافات</a>
+  <a href="#download">تحميل</a>
+  <a href="#video">فيديو تعليمي</a>
+</nav>
+
+<div class="container">
+
+  <section id="about">
+    <h2>📌 ما هو Visual Studio Code؟</h2>
+    <p>Visual Studio Code (VS Code) هو محرر نصوص مجاني ومفتوح المصدر من مايكروسوفت يستخدم لكتابة الكود البرمجي وتطوير المواقع والتطبيقات. يدعم معظم لغات البرمجة مثل Python وJavaScript وC++ وHTML وCSS. يتميز بخفته وسرعته وإمكانية إضافة الإضافات لتطويره إلى بيئة متكاملة.</p>
+    <img src="https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300" alt="شخص يعمل على VS Code">
+  </section>
+
+  <section id="features">
+    <h2>🎯 مميزات VS Code</h2>
+    <ul>
+      <li>دعم لغات برمجة متعددة.</li>
+      <li>إضافات (Extensions) لتحسين الأداء وإضافة وظائف.</li>
+      <li>تكامل مع Git لإدارة النسخ الاحتياطي والمشاريع.</li>
+      <li>أدوات تصحيح الأخطاء (Debugging) مباشرة داخل المحرر.</li>
+      <li>محاكي الطرفية المدمج (Terminal) لتنفيذ الأوامر مباشرة.</li>
+      <li>واجهة قابلة للتخصيص مع ثيمات وألوان مختلفة.</li>
+    </ul>
+  </section>
+
+  <section id="installation">
+    <h2>💻 كيفية تثبيت VS Code</h2>
+    <ol>
+      <li>اذهب إلى الموقع الرسمي: <a class="button" href="https://code.visualstudio.com/" target="_blank">code.visualstudio.com</a></li>
+      <li>اختر نسخة نظام التشغيل الخاص بك (Windows, Mac, Linux).</li>
+      <li>بعد التحميل، افتح الملف واتبع خطوات التثبيت.</li>
+      <li>بعد التثبيت، افتح VS Code للبدء بالبرمجة.</li>
+    </ol>
+    <img src="https://images.pexels.com/photos/1181679/pexels-photo-1181679.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300" alt="تثبيت VS Code">
+  </section>
+
+  <section id="interface">
+    <h2>🖥️ واجهة المستخدم</h2>
+    <ul>
+      <li>شريط القوائم: يحتوي على File, Edit, View...</li>
+      <li>شريط الأدوات الجانبي: للوصول إلى الملفات، الإضافات، Git، وتصحيح الأخطاء.</li>
+      <li>النافذة الرئيسية: حيث يظهر الكود البرمجي.</li>
+      <li>طرفية مدمجة (Integrated Terminal) لتشغيل الأوامر.</li>
+    </ul>
+    <img src="https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300" alt="واجهة VS Code">
+  </section>
+
+  <section id="extensions">
+    <h2>🔌 الإضافات (Extensions)</h2>
+    <ol>
+      <li>اضغط على أيقونة المربعات على الشريط الجانبي.</li>
+      <li>ابحث عن الإضافة المطلوبة مثل Python أو Live Server.</li>
+      <li>اضغط Install لتثبيت الإضافة.</li>
+      <li>بعد التثبيت، يمك
